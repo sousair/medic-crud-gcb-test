@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "removeComments": true,
+    "target": "ES2019",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "incremental": true,
+  },
+}
