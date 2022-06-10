@@ -1,0 +1,17 @@
+{
+  "name": "medic-crud-gcb-test",
+  "version": "1.0.0",
+  "description": "Teste prático do Grupo GCB",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sousair/medic-crud-GCB-test.git"
+  },
+  "keywords": [],
+  "author": "Iago Sousa <sousair2001@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sousair/medic-crud-GCB-test/issues"
+  },
+  "homepage": "https://github.com/sousair/medic-crud-GCB-test#readme"
+}
