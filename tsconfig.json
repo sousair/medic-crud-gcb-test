@@ -8,6 +8,7 @@
     "sourceMap": true,
     "outDir": "dist",
     "incremental": true,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
       "@domain/*": ["./src/domain/*"],
