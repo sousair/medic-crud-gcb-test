@@ -8,5 +8,11 @@
     "sourceMap": true,
     "outDir": "dist",
     "incremental": true,
-  },
+    "baseUrl": ".",
+    "paths": {
+      "@domain/*": ["./src/domain/*"],
+      "@application/*": ["./src/application/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  }
 }
