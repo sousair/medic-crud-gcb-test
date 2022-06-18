@@ -8,4 +8,8 @@ export class Address {
   createdAt: Date;
   updatedAt: Date;
   deletedAt: Date;
+
+  constructor(data: Partial<Address>) {
+    if (data) Object.assign(this, data);
+  }
 }
