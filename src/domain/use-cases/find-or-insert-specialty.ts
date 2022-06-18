@@ -10,7 +10,7 @@ export namespace IFindOrInsertSpecialtyUseCase {
 }
 
 export interface IFindOrInsertSpecialtyUseCase {
-  findOrInsert: (
+  findOrInsert(
     params: IFindOrInsertSpecialtyUseCase.Params
-  ) => IFindOrInsertSpecialtyUseCase.Result;
+  ): IFindOrInsertSpecialtyUseCase.Result;
 }

@@ -15,7 +15,5 @@ export namespace IInsertMedicRepository {
 }
 
 export interface IInsertMedicRepository {
-  insert: (
-    params: IInsertMedicRepository.Params
-  ) => IInsertMedicRepository.Result;
+  insert(params: IInsertMedicRepository.Params): IInsertMedicRepository.Result;
 }
