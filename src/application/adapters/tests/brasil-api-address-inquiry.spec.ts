@@ -52,7 +52,7 @@ describe('BrasilApiAddressInquiry Adapter', () => {
     expect(httpRequesterProviderSpy).toHaveBeenCalledTimes(1);
     expect(httpRequesterProviderSpy).toHaveBeenCalledWith({
       method: 'get',
-      url: `${process.env.BRASIL_API_URL}/${addressInquiryParams.zipCode}`,
+      url: `${process.env.BRASIL_API_URL}/cep/v2/${addressInquiryParams.zipCode}`,
     });
   });
 

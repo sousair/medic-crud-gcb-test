@@ -12,7 +12,7 @@ export class BrasilAPIAddressInquiryAdapter implements IAddressInquiryAdapter {
     const brasilAPIRes =
       await this.httpRequesterProvider.makeRequest<RawBrasilApiResultDTO>({
         method: 'get',
-        url: `${process.env.BRASIL_API_URL}/${zipCode}`,
+        url: `${process.env.BRASIL_API_URL}/cep/v2/${zipCode}`,
       });
 
     if (brasilAPIRes.statusCode !== 200 || !brasilAPIRes.data)
