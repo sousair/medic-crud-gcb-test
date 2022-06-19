@@ -63,8 +63,6 @@ describe('AxiosHttpRequester Provider', () => {
       anyData: 'anyValue',
     });
     
-    console.log(axiosMock.adapter());
-
     const result = await sut.makeRequest({
       url: '/anyRoute4',
       method: 'get',
