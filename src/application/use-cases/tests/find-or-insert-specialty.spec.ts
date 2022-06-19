@@ -1,10 +1,9 @@
-import { failure } from './../../../utils/either';
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Specialty } from '@domain/models/specialty';
 import { IFindOneSpecialtyRepository } from '@domain/repositories/specialty/find-one';
 import { IInsertSpecialtyRepository } from '@domain/repositories/specialty/insert';
 import { IFindOrInsertSpecialtyUseCase } from '@domain/use-cases/find-or-insert-specialty';
-import { Success, success, Failure } from '@utils/either';
+import { Success, success, Failure, failure } from '@utils/either';
 import { FindOrInsertSpecialtyUseCase } from '../find-or-insert-specialty';
 
 describe('FindOrInsertSpecialty UseCase', () => {

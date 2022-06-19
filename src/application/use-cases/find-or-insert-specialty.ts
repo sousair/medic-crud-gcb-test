@@ -1,7 +1,7 @@
 import { IFindOrInsertSpecialtyUseCase } from '@domain/use-cases/find-or-insert-specialty';
 import { failure, success } from '@utils/either';
-import { IFindOneSpecialtyRepository } from './../../domain/repositories/specialty/find-one';
-import { IInsertSpecialtyRepository } from './../../domain/repositories/specialty/insert';
+import { IFindOneSpecialtyRepository } from '@domain/repositories/specialty/find-one';
+import { IInsertSpecialtyRepository } from '@domain/repositories/specialty/insert';
 
 export class FindOrInsertSpecialtyUseCase implements IFindOrInsertSpecialtyUseCase {
   constructor(

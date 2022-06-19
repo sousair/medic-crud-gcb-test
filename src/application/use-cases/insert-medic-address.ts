@@ -1,7 +1,7 @@
 import { IFindOrInsertAddressUseCase } from '@domain/use-cases/find-or-insert-address';
 import { IInsertMedicAddressUseCase } from '@domain/use-cases/insert-medic-address';
 import { failure, success } from '@utils/either';
-import { IInsertMedicAddressRepository } from './../../domain/repositories/medic-address/insert';
+import { IInsertMedicAddressRepository } from '@domain/repositories/medic-address/insert';
 
 export class InsertMedicAddressUseCase implements IInsertMedicAddressUseCase {
   constructor(
