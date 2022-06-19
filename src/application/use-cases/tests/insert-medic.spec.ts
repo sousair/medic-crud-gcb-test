@@ -1,15 +1,13 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+import { Medic } from '@domain/models/medic';
 import { MedicAddress } from '@domain/models/medic-address';
+import { Specialty } from '@domain/models/specialty';
 import { IInsertMedicRepository } from '@domain/repositories/medic/insert';
 import { IFindOrInsertSpecialtyUseCase } from '@domain/use-cases/find-or-insert-specialty';
 import { IInsertMedicUseCase } from '@domain/use-cases/insert-medic';
 import { IInsertMedicAddressUseCase } from '@domain/use-cases/insert-medic-address';
-import { Failure, failure } from '@utils/either';
-import { Specialty } from '../../../domain/models/specialty';
-import { success } from '../../../utils/either';
+import { Failure, failure, success, Success } from '@utils/either';
 import { InsertMedicUseCase } from '../insert-medic';
-import { Medic } from '@domain/models/medic';
-import { Success } from '../../../utils/either';
 
 describe('InsertMedic UseCase', () => {
   let sut: IInsertMedicUseCase;
